@@ -1,0 +1,43 @@
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+h1 {
+
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    
+}
+
+li {
+    font-style: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    
+}
+
+.fruits {
+    color: green;
+    font-weight: bold;
+}
+
+#my-favorite {
+    font-weight: bolder; 
+    font-size: 18px;
+    background-color: #B0CDF7;
+}
+

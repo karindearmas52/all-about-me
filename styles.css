@@ -1,18 +1,36 @@
 
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-VariableFont_wdth,wght.ttf');
+}
+
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     
 }
 
+.container {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: 0;
+}
+
 h1 {
 
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     font-weight: bolder;
 }
 
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 p {
     font-size: 16px;
@@ -23,17 +41,11 @@ p {
 }
 
 li {
-    font-style: bolder;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 1.4;
-    
-}
-
-.fruits {
-    color: green;
-    font-weight: bold;
-}
+}    
 
 #my-favorite {
     font-weight: bolder; 
